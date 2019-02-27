@@ -1,0 +1,11 @@
+version: '3.4'
+
+services: 
+ dockerunittests.unit.tests:
+  image: dockerunittests.unit.tests
+  build:
+    context: .
+    dockerfile: dockerunittests.xunit.tests/Dockerfile
+  entrypoint: dotnet test --logger trx --results-directory /out/testresults
+  volumes: 
+  - /opt/vsts/work/_temp:/out/testresults

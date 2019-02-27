@@ -13,7 +13,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dockerunittests.dataaccess"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dockerunittests.services", "dockerunittests.services\dockerunittests.services.csproj", "{71391498-A12C-49E9-A36A-7C60E5337D21}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dockerunittests.unit.tests", "dockerunittests.unit.tests\dockerunittests.unit.tests.csproj", "{3CF9C557-474B-4E6B-A8FE-768011CE31AE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dockerunittests.xunit.tests", "dockerunittests.xunit.tests\dockerunittests.xunit.tests.csproj", "{D98909B3-9A1B-4326-AC2F-BD2A1A0BF091}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,10 +41,10 @@ Global
 		{71391498-A12C-49E9-A36A-7C60E5337D21}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{71391498-A12C-49E9-A36A-7C60E5337D21}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{71391498-A12C-49E9-A36A-7C60E5337D21}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3CF9C557-474B-4E6B-A8FE-768011CE31AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3CF9C557-474B-4E6B-A8FE-768011CE31AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3CF9C557-474B-4E6B-A8FE-768011CE31AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3CF9C557-474B-4E6B-A8FE-768011CE31AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D98909B3-9A1B-4326-AC2F-BD2A1A0BF091}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D98909B3-9A1B-4326-AC2F-BD2A1A0BF091}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D98909B3-9A1B-4326-AC2F-BD2A1A0BF091}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D98909B3-9A1B-4326-AC2F-BD2A1A0BF091}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
